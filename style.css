@@ -1,0 +1,110 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+* {
+ margin:0;
+ padding:0;
+ }
+body {
+  position: relative;
+  background-color: rgb(200,200,200);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.6;
+}
+h1,h2,h3 {
+  color: #a79344;
+  font-family: arial;
+  line-height 1.6;
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+}
+a {
+  color: white;
+}
+a:hover{
+  color: grey;
+}
+#presentation {
+  padding-top: 15px;
+  text-align: center;
+  height: 300px;
+  background-color: #0b2647
+}
+#presentation img {
+  border-radius: 50%;
+  border: 1px solid #a79344;
+  box-shadow: 5px 5px 90px rgba(200,200,200, 0.5);
+}
+#presentation li {
+  display: inline-block;
+  margin: 15px 50px;
+}
+.italic {
+  font-style: italic;
+}
+#description {
+  margin: 30px 500px;
+  padding: 20px 100px;
+  height: auto;
+  background-color: white;
+  text-align: center;
+  font-style: italic;
+  border-radius: 10px;
+  box-shadow: 10px 10px 50px rgba(230,230,230, 0.5);
+}
+#competence {
+  float: right;
+  background-color: white;
+  height: auto;
+  margin-right: 100px;
+  padding: 20px 50px;
+  border-radius: 10px;
+  text-align: center;
+}
+#competence li{
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+}
+#competence li img{
+  max-width: 50px;
+  height: auto;
+}
+#formation {
+  margin: 30px 500px;
+  padding: 20px 100px;
+  height: auto;
+  background-color: white;
+  text-align: center;
+  font-style: italic;
+  border-radius: 10px;
+  box-shadow: 10px 10px 50px rgba(230,230,230, 0.5)
+}
+#formation img {
+  margin: 15px;
+  width: 70px;
+}
+.strong {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+
+footer {
+  height: 100px;
+  background-color: #0b2647;
+  text-align: center;
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  position: fixed;
+}
+footer li {
+  display: inline-block;
+  list-style: none;
+
+  margin: 15px 10px;
+  font-size: 40px;
+  color: white;
+}
